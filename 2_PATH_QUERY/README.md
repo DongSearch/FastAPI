@@ -13,3 +13,8 @@ def get_data(author : str = "None") <- authour can't necessarily put in
 ![image](para.png)
 - query 
 ![image](query.png)
+
+
+# Mini project
+make a board to post,edit and delete freely using PUT,GET,POST,DELETE
+
