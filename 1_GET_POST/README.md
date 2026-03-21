@@ -40,4 +40,9 @@ class Post(BaseModel):
 TypeError : 'function' obejct does not support item assignment
 ```
 
+- important to do exception when wrong id gets
+```
+if id not in posts:
+   raise HTTPException(status_code=404, detail="Post not found")
+```
 
