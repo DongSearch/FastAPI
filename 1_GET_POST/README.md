@@ -26,3 +26,10 @@ class Post(BaseModel):
 - Automatically validates incoming data so you don’t have to manually check each field.
 - Makes your code cleaner and easier to maintain.
 - Works well with FastAPI’s automatic docs (/docs) because it knows the data structure.
+
+
+# Error
+- do not give the same names to function and dictionary
+```
+TypeError : 'function' obejct does not support item assignment
+```
