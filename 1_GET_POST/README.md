@@ -27,9 +27,17 @@ class Post(BaseModel):
 - Makes your code cleaner and easier to maintain.
 - Works well with FastAPI’s automatic docs (/docs) because it knows the data structure.
 
+# Reuslt
+- get all of data I did post
+![image](get_all.png)
+- get one specific post using id number
+![image](get_one.png)
+
 
 # Error
 - do not give the same names to function and dictionary
 ```
 TypeError : 'function' obejct does not support item assignment
 ```
+
+
