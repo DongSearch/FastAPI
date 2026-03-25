@@ -6,3 +6,9 @@
 2. when to change sqlite to postgresql, you remove "metadata.creat_all(engine ) =→ “Just make whatever tables I defined, no strict rules"   
 - You should stop creating tables automatically from your code   
 - and instead let a migration tool (like Alembic) manage your schema  
+| Feature         | create_all() | Alembic |
+| --------------- | ------------ | ------- |
+| Creates tables  | ✅            | ✅       |
+| Updates schema  | ❌            | ✅       |
+| Version control | ❌            | ✅       |
+| Production safe | ❌            | ✅       |
